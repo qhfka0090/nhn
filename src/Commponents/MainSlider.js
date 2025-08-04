@@ -10,21 +10,21 @@ import 'swiper/css/pagination';
 const videos = [
     {
         number:'01',
-        src:'/video/mainBanner01.mp4',
+        src:`${process.env.PUBLIC_URL}/video/mainBanner01.mp4`,
         title:'회사소개',
         subtitle:'우리의 연결로',
         secondtitle:'만드는 새로운 내일'
     },
     {
         number:'02',
-        src:'/video/mainBanner02.mp4',
+        src:`${process.env.PUBLIC_URL}/video/mainBanner02.mp4`,
         title:'ESG',
         subtitle:'함께 성장하며',
         secondtitle:'지속가능한 미래를 만듭니다.'
     },
     { 
         number:'03',
-        src:'/video/mainBanner03.mp4',
+        src:`${process.env.PUBLIC_URL}/video/mainBanner03.mp4`,
         title:'CAREERS',
         subtitle:'더 나은 세상을 만들어갈',
         secondtitle:'Next Player를 찾습니다.'
