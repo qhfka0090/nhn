@@ -2,7 +2,7 @@
   "name": "nhn",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://qhfka0090.github.io/nhnweb/",
+  "homepage": "https://qhfka0090.github.io/nhn/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
