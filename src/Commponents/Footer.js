@@ -24,7 +24,7 @@ function Footer(){
                                     <button onClick={()=> setDomestic(!domestic)}
                                         className="w-full sm:w-auto flex justify-between items-center px-4 py-2 sm:text-sm bg-white font-bold gap-[15px]"
                                         aria-expanded={domestic} type="button"
-                                    ><p className='text-xl'>국내법인</p> {domestic ? (<img src='/images/plus.svg' className='rotate-[135deg]' />) : (<img src='/images/plus.svg' />)}
+                                    ><p className='text-xl'>국내법인</p> {domestic ? (<img src={`${process.env.PUBLIC_URL}/images/plus.svg`} className='rotate-[135deg]' />) : (<img src={`${process.env.PUBLIC_URL}/images/plus.svg`} />)}
                                     </button>
                                     {domestic && (
                                         <div className="absolute z-20 bottom-[50px] h-[200px] overflow-auto mt-1 right-0 w-full sm:w-56 bg-white border border-gray-300 rounded-md shadow-lg text-xs sm:text-sm">
@@ -56,7 +56,7 @@ function Footer(){
                                     <button onClick={()=>setOverseas(!overseas)}
                                         className="w-full sm:w-auto flex justify-between items-center px-4 py-2 bg-white gap-[15px] font-bold"
                                         aria-expanded={overseas} type="button"
-                                    ><p className='text-xl'>해외법인</p> {overseas ? (<img src='/images/plus.svg' className='rotate-[135deg]' />) : (<img src='/images/plus.svg' />)}
+                                    ><p className='text-xl'>해외법인</p> {overseas ? (<img src={`${process.env.PUBLIC_URL}/images/plus.svg`} className='rotate-[135deg]' />) : (<img src={`${process.env.PUBLIC_URL}/images/plus.svg`} />)}
                                     </button>
                                     {overseas && (
                                         <div className="absolute z-20 bottom-[50px] h-[200px] overflow-auto mt-1 right-0 w-full sm:w-56 bg-white border border-gray-300 rounded-md shadow-lg text-xs sm:text-sm">
@@ -74,10 +74,10 @@ function Footer(){
                                 </div>
                             </div>
                             <ul className="flex w-[230px] h-[40px] gap-[20px]">
-                                <li className="w-[40px] h-[40px] border rounded-full"><a href="#" className="w-[40px] h-[40px] flex justify-center items-center"><img src="images/youtube.svg" className="w-[20px] h-[20px] object-cover"/></a></li>
-                                <li className="w-[40px] h-[40px] border rounded-full"><a href="#" className="w-[40px] h-[40px] flex justify-center items-center"><img src="images/instagram.svg"/></a></li>
-                                <li className="w-[40px] h-[40px] border rounded-full"><a href="#" className="w-[40px] h-[40px] flex justify-center items-center"><img src="images/linked.svg"/></a></li>
-                                <li className="w-[40px] h-[40px] border rounded-full"><a href="#" className="w-[40px] h-[40px] flex justify-center items-center"><img src="images/meetup.svg"/></a></li>
+                                <li className="w-[40px] h-[40px] border rounded-full"><a href="#" className="w-[40px] h-[40px] flex justify-center items-center"><img src={`${process.env.PUBLIC_URL}/images/youtube.svg`} className="w-[20px] h-[20px] object-cover"/></a></li>
+                                <li className="w-[40px] h-[40px] border rounded-full"><a href="#" className="w-[40px] h-[40px] flex justify-center items-center"><img src={`${process.env.PUBLIC_URL}/images/instagram.svg`}/></a></li>
+                                <li className="w-[40px] h-[40px] border rounded-full"><a href="#" className="w-[40px] h-[40px] flex justify-center items-center"><img src={`${process.env.PUBLIC_URL}/images/linked.svg`}/></a></li>
+                                <li className="w-[40px] h-[40px] border rounded-full"><a href="#" className="w-[40px] h-[40px] flex justify-center items-center"><img src={`${process.env.PUBLIC_URL}/images/meetup.svg`}/></a></li>
                             </ul>
                         </div>
                     </div>
