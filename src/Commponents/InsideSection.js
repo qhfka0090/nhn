@@ -1,9 +1,9 @@
 import { CircleArrowRight } from 'lucide-react';
 
 const items = [
-    {id:1, title:'사람&문화',subtitle:'WE! FAMILY 한 지붕 아래, 온 가족이 함께!', src:'/images/202506161730031.webp'},
-    {id:2, title:'서비스',subtitle:'안심할 수 있는 보안 환경을 만드는 보안 파트 김수민', src:'/images/202505301455021.webp'},
-    {id:3, title:'기업',subtitle:'장애인 고용 10년, NHN ‘굿프렌즈’의 따뜻한 동행', src:'/images/202506111020171.webp'}
+    {id:1, title:'사람&문화',subtitle:'WE! FAMILY 한 지붕 아래, 온 가족이 함께!', src:`${process.env.PUBLIC_URL}/images/202506161730031.webp`,},
+    {id:2, title:'서비스',subtitle:'안심할 수 있는 보안 환경을 만드는 보안 파트 김수민', src:`${process.env.PUBLIC_URL}/images/202505301455021.webp`,},
+    {id:3, title:'기업',subtitle:'장애인 고용 10년, NHN ‘굿프렌즈’의 따뜻한 동행', src:`${process.env.PUBLIC_URL}/images/202506111020171.webp`,}
 ]
 
 function InsideSection(){

@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 const cardList = [
     {
-        image:'/images/playBanner001.png',
+        image:`${process.env.PUBLIC_URL}/images/playBanner001.png`,
         title:'누구나 연결되는 새로운 즒거움',
         subtitle:'Game ',
         links:[
@@ -25,7 +25,7 @@ const cardList = [
         ]
     },
     {   
-        image:'/images/playBanner002.png',
+        image:`${process.env.PUBLIC_URL}/images/playBanner002.png`,
         title:'생활 속 어디서나 쉽고 편리하게',
         subtitle:'Payment Ad',
         links:[
@@ -36,7 +36,7 @@ const cardList = [
         ]
     },
     {   
-        image:'/images/playBanner003.png',
+        image:`${process.env.PUBLIC_URL}/images/playBanner003.png`,
         title:'더 넓은 세상으로의 연결',
         subtitle:'Commerce',
         links:[
@@ -47,7 +47,7 @@ const cardList = [
         ]
     },
     {
-        image:'/images/playBanner004.png',
+        image:`${process.env.PUBLIC_URL}/images/playBanner004.png`,
         title:'유연한 기술력으로 연결된 안전한 비즈니스',
         subtitle:'Technology',
         links:[
@@ -57,7 +57,7 @@ const cardList = [
         ]
     },
     {   
-        image:'/images/playBanner005.png',
+        image:`${process.env.PUBLIC_URL}/images/playBanner005.png`,
         title:'나를 위한 새로운 발견',
         subtitle:'Contents',
         links:[

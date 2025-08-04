@@ -123,7 +123,7 @@ function NhnSection(){
                         <strong className="text-4xl font-bold mr-10">28,900</strong>
                         <div className="flex gap-[5px]">
                             <span className="font-bold">1650</span>
-                            <img src='/images/arrow_red2.png' alt='arrow-red' className="w-[15px] h-auto object-contain"/>
+                            <img src={`${process.env.PUBLIC_URL}/images/arrow_red2.png`} alt='arrow-red' className="w-[15px] h-auto object-contain"/>
                         </div>
                     </div>
                     <p className="text-lg font-bold text-gray-500 mb-6">KRX {today()}</p>
