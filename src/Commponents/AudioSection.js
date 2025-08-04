@@ -10,7 +10,7 @@ function AudioSection(){
             </div>
             <div className="w-full md:w-[70%] h-auto ">
                 <article className='relative rounded-2xl overflow-hidden'>
-                    <video src="/video/main.mp4"
+                    <video src={`${process.env.PUBLIC_URL}/video/main.mp4`}
                         autoPlay
                         muted
                         playsInline
