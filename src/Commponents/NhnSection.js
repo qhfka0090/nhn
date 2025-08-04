@@ -2,47 +2,6 @@ import { ArrowUpRight, Triangle,ArrowRight } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import React from 'react';
 
-/* const pressItems = [
-    {
-        links:[
-            {title:'NHN, 모바일 웹보드게임 ‘한게임 싱글 맞고’ 출시…데이터 없어도 플레이 가능'},
-            {title:'NHN, "어쩌면 해피엔딩 토니상 수상 축하...잠재력 있는 국내 공연 발굴 및 글로벌 진출 지원 이어갈 것"'},
-            {title:'NHN 클라우드, 25년 공공 클라우드 네이티브 전환 사업 7개 중 5개 기관 진행… "공공 시장 선도 지속"'}
-        ]
-    },
-    {
-        links:[
-            {title:'NHN페이코, 신전떡볶이에 멤버십·오더 솔루션 제공…운영 효율성 높여'},
-            {title:'설립 10년차 맞은 NHN 장애인 표준사업장 ‘굿프렌즈’…”사업 확대 지속 모색”'},
-            {title:'NHN, 판교사옥 가족초청 행사 ‘위패밀리’ 개최 … 2,500여 임직원 가족 참여'}
-        ]
-    },
-    {
-        links:[
-            {title:'NHN두레이, 국내 협업툴 최초 금융보안원 CSP 안전성, SaaS 제공자 평가 완료'},
-            {title:'NHN, ‘다키스트 데이즈’ 스팀 ‘좀비 대 뱀파이어 게임 축제’ 참가'},
-            {title:"NHN커머스, 쇼핑몰 첫걸음 함께하는 '1:1 전담 서비스' 정식 오픈"}
-        ]
-    }
-]
-const posting = [
-    {
-        links:[
-            { title:'Game AI 연구 및 서비스 개발' },
-            { title:'시스템 엔지니어링' },
-            { title:'두레이 모바일 서비스 iOS 개발' },
-        ]
-    },
-    {
-        links:[
-            { title:'IT/클라우드 사업 홍보' },
-            { title:'Spring 기반 웹 서비스 백엔드 개발' },
-            { title:'게임플랫폼 Unity 개발' },
-        ]
-    }
-]
- */
-
 const today = function(){
     const now = new Date();
     const options = { timeZone:'Asia/Seoul', hour12:true };
